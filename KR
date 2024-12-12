@@ -1,0 +1,28 @@
+#Контрольная работа
+#Шашков Никита Х-71
+#Вариант:С
+#                                   Задача 3
+import math
+def factorial(atom):
+    return math.factorial(atom)
+def main():
+    print('Вычислить факториал')
+    atom=int(input('Веди атомное число'))
+    factorial=calculate_rectangle_area(atom)
+    print(f'Факториал{atom}авен{factorial}')
+if _name_ = "_main_":
+    main()
+
+
+
+#                                 Задача 1
+def calculate_rectangle_area(длина,ширина):
+    return длина * ширина
+def main():
+    print('Вычислить площадь молекулы')
+    длина=float("Введи длину молекулы")
+    ширина=float('Введи ширину молекулы')
+    area=calculate_rectangle_area((длина,ширина)
+print(f'Площадь молекулы:{area:.2f} квадратных нанометров')
+if _name_ = "_main_":
+    main()
